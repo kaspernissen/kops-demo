@@ -1,6 +1,6 @@
 #!/bin/bash
-export AWS_PROFILE="phennex-kops-demo"
-export KOPS_STATE_STORE="phennex-kops-state-store"
+export AWS_PROFILE="INSERT KOPS IAM PROFILE NAME HERE"
+export KOPS_STATE_STORE="INSERT THE NAME OF THE S3 BUCKET HERE"
 export REGION=eu-west-1
 
 # Create the bucket using awscli

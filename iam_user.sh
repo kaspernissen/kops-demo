@@ -1,5 +1,5 @@
 #!/bin/bash
-export KOPS_PROFILE_NAME="phennex-kops-demo"
+export KOPS_PROFILE_NAME="INSERT A PROFILE IAM_PROFILE_NAME"
 
 aws iam create-group --group-name $KOPS_PROFILE_NAME
 

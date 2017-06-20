@@ -1,5 +1,6 @@
 #!/bin/bash
-export KOPS_NAME="private-multiple-masters.phennex.com"
+export KOPS_NAME="KOPS NAME OF YOUR CLUSTER"
+
 kubectl config use-context $KOPS_NAME
 
 # Create the kubernetes dashboard

@@ -1,8 +1,8 @@
 #!/bin/bash
-export AWS_PROFILE="phennex-kops-demo"
-export KOPS_NAME="private-multiple-masters.phennex.com"
-export KOPS_STATE_STORE="s3://phennex-kops-state-store"
-export PRIVATE_HOSTED_ZONE_ID="Z3MHJZW72A9UK2"
+export AWS_PROFILE="AWS PROFILE"
+export KOPS_NAME="KOPS NAME OF YOUR CLUSTER"
+export KOPS_STATE_STORE="s3:// S3 BUCKET NAME"
+export PRIVATE_HOSTED_ZONE_ID="PRIVATE ROUTE53 ZONE ID"
 
 kops create cluster \
   --name $KOPS_NAME \

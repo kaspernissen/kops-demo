@@ -1,6 +1,6 @@
 #!/bin/bash
-export AWS_PROFILE="phennex-kops-demo"
-export KOPS_NAME="private-multiple-masters.phennex.com"
-export KOPS_STATE_STORE="s3://phennex-kops-state-store"
+export AWS_PROFILE="AWS PROFILE"
+export KOPS_NAME="KOPS NAME OF YOUR CLUSTER"
+export KOPS_STATE_STORE="s3:// S3 BUCKET NAME"
 
 kops delete cluster --name $KOPS_NAME --yes
